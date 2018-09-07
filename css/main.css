@@ -9,8 +9,18 @@ hr {
     border: solid #d6b161;
     border-width: .35rem 0 0 0;
 }
-h3{
+h2, h3, h4, p{
 	text-align: center;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; 
 }
 .about{
 	background-image: url(../assets/1.jpg);
@@ -275,3 +285,69 @@ h3{
     .timeLine .circle.xl {
       width: 4.5rem;
       height: 4.5rem; }
+/*skill*/
+.skill, .project , .contact{
+	background-image: url(../assets/3.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;	
+}
+.skill .container, .project .container, .contact .container{
+	padding: 10%;
+    height: 100%;
+    width: 90%;
+}
+
+
+/*contact*/
+
+.contact .avater {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem auto;
+    border-radius: 50%;
+    background: url(../assets/4.png) center no-repeat;
+    background-size: cover;
+}
+.contact-card{
+	height: 500px;
+    padding: 20%;
+}
+.contact-card img{
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+    display: block;
+}
+
+.socialMedia{
+	width: 100%;
+	margin: 0 auto;
+    display: flex;
+    padding-left: 0;
+}
+
+.socialMedia li{
+	float: left;
+	width: 33.33333333%;
+    margin: 0 auto;
+    display: block;
+    height: 30px
+}
+.a {
+    width: 244px;
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+}
+.a a{
+	margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.socialMedia li i{
+    width: 33.33333333%;
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+}
