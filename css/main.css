@@ -22,26 +22,24 @@ img{
   display: table;
   clear: both; 
 }
-.section1{
-	height: 100%;
-}
 
 .item{
 	text-align: center;
 	width: 300px;
 	margin: 0 auto;
 	height: 100%;
-	padding-top: 200px;
+	padding-top: 60px;
 }
 @media screen and (min-width:768px){
 	.item{
 		width: 450px;
+		padding-top: 200px;
 	}
 }
 .about{
 	background-image: url(../assets/1.jpg);
 	background-size: cover;
-	width: 100%;
+	height: 100%;
 }
 
 .about .card{
@@ -51,20 +49,7 @@ img{
     background-color: #fdfdfd;
     opacity: 0.8;
 }
-.about .card h1{
-	text-align: center;
-    padding: 15px 30px 0;
-}
-.about .card p{
-	text-align: center;
-	padding: 15px 30px 0;
-	margin-top: 20px;
-}
-.about .card .btn{
-	display: block;
-    margin: 0 auto;
-    width: 20%;
-}
+
 .experience {
 	background-image: url(../assets/2.jpg);
 	background-size: cover;
@@ -301,21 +286,93 @@ img{
     .timeLine .circle.xl {
       width: 4.5rem;
       height: 4.5rem; }
+
+@-webkit-keyframes r1 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);
+    transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg);
+    transform: rotate(360deg) translateX(5px) rotate(-360deg); } }
+
+@keyframes r1 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg);
+    transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg);
+    transform: rotate(360deg) translateX(5px) rotate(-360deg); } }
+
+@-webkit-keyframes r2 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(7.5px) rotate(0deg);
+    transform: rotate(0deg) translateX(7.5px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(7.5px) rotate(-360deg);
+    transform: rotate(360deg) translateX(7.5px) rotate(-360deg); } }
+
+@keyframes r2 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(7.5px) rotate(0deg);
+    transform: rotate(0deg) translateX(7.5px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(7.5px) rotate(-360deg);
+    transform: rotate(360deg) translateX(7.5px) rotate(-360deg); } }
+
+@-webkit-keyframes r3 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);
+    transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    transform: rotate(360deg) translateX(10px) rotate(-360deg); } }
+
+@keyframes r3 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(10px) rotate(0deg);
+    transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    transform: rotate(360deg) translateX(10px) rotate(-360deg); } }
+
+@-webkit-keyframes r4 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(12.5px) rotate(0deg);
+    transform: rotate(0deg) translateX(12.5px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(12.5px) rotate(-360deg);
+    transform: rotate(360deg) translateX(12.5px) rotate(-360deg); } }
+
+@keyframes r4 {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(12.5px) rotate(0deg);
+    transform: rotate(0deg) translateX(12.5px) rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg) translateX(12.5px) rotate(-360deg);
+    transform: rotate(360deg) translateX(12.5px) rotate(-360deg); } }
+
+
+
+
+
 /*skill*/
 .skill, .project , .contact{
 	background-image: url(../assets/3.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 100%;	
 }
 .skill .container, .project .container, .contact .container{
 	padding: 10%;
-    height: 100%;
     width: 90%;
+    min-height: 500px;
 }
 
 
 /*contact*/
+
+.contact .item{
+	padding-top: 0;
+}
 
 .contact .avater {
     width: 10rem;
@@ -325,22 +382,15 @@ img{
     background: url(../assets/4.png) center no-repeat;
     background-size: cover;
 }
-.contact-card{
-	height: 500px;
-    padding: 20%;
-}
-.contact-card img{
-	height: 50px;
-	width: 50px;
-	margin: 0 auto;
-    display: block;
-}
 
 .socialMedia{
 	width: 100%;
+	font-size: 24px;
 	margin: 0 auto;
     display: flex;
     padding-left: 0;
+    color: black;
+    padding-bottom: 20px;
 }
 
 .socialMedia li{
@@ -350,20 +400,7 @@ img{
     display: block;
     height: 30px
 }
-.a {
-    width: 244px;
-    margin: 0 auto;
-    display: block;
-    height: 30px;
-}
-.a a{
-	margin: 0 auto;
-    display: block;
-    width: 100%;
-}
-.socialMedia li i{
-    width: 33.33333333%;
-    margin: 0 auto;
-    display: block;
-    height: 30px;
+
+.socialMedia a, .email a{
+	color: black;
 }
