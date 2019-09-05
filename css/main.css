@@ -206,7 +206,7 @@ img{
         background-color: #222; }
     .timeLine .circle.green {
       background-color: #42b883;
-      bottom: 14rem;
+      bottom: 30rem;
       right: -6rem;
       -webkit-animation: r3 infinite linear 9s;
       animation: r3 infinite linear 9s;
@@ -287,8 +287,8 @@ img{
       animation: r4 infinite linear 6s; }
     .timeLine .circle.bg-8 {
       background-color: #69F0AE;
-      bottom: 15rem;
-      right: 7rem;
+      bottom: 35rem;
+      right: 3rem;
       -webkit-animation: r4 infinite linear 10s;
       animation: r4 infinite linear 10s; }
     .timeLine .circle.bg-9 {
@@ -416,6 +416,11 @@ img{
 .skill-card a{
 	text-decoration: none;
 }
+.skill-name{
+  font-size: 25px;
+}
+a:hover{text-decoration: none;}
+a,a:link,a:visited{color:#000;text-decoration: none; text-align: center}
 
 .project{
 	background-color:#949494;
@@ -447,7 +452,7 @@ img{
     height: 15rem;
     margin: 1rem auto;
     border-radius: 50%;
-    background: url(../assets/4.png) center no-repeat;
+    background: url(../assets/Alex.jpg) center no-repeat;
     background-size: cover;
 }
 
