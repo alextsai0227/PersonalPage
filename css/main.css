@@ -230,7 +230,7 @@ img{
         color: #d6b161;
         background-color: #222; }
     .timeLine .circle.purple {
-      background-color: #b469ff;
+      background-color: #7633ba;
       bottom: 21rem;
       right: -5rem;
       -webkit-animation: r1 infinite linear 5s;
@@ -452,7 +452,7 @@ a,a:link,a:visited{color:#000;text-decoration: none; text-align: center}
     height: 15rem;
     margin: 1rem auto;
     border-radius: 50%;
-    background: url(../assets/Alex.jpg) center no-repeat;
+    background: url(../assets/Alex_profile_photo.jpg) center no-repeat;
     background-size: cover;
 }
 
