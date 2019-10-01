@@ -420,8 +420,6 @@ img{
   font-size: 25px;
 }
 a:hover{text-decoration: none;}
-a,a:link,a:visited{color:#000;text-decoration: none; text-align: center}
-
 .project{
 	background-color:#949494;
 }
